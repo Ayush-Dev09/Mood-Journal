@@ -1,5 +1,4 @@
 # Mood Journal
-
 A digital mood journaling app with emotion tracking, sentiment analysis, and mental wellness tools.
 
 ## Features
@@ -18,14 +17,23 @@ A digital mood journaling app with emotion tracking, sentiment analysis, and men
 
 ## How to Run
 
-Installing
-npm install npm run client-install
+### Installing
+```bash
+npm install
+npm run client-install
+```
 
-Running the app
-npm run dev (runs server and client concurrently)
+### Running the App
+```bash
+npm run dev     # Runs server and client concurrently
+```
 
-Running the client only
+### Run Client Only
+```bash
 npm run client
+```
 
-Running the server only
-npm run server 
+### Run Server Only
+```bash
+npm run server
+```
